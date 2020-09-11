@@ -110,11 +110,11 @@ public class SubmitProject extends AppCompatActivity {
 
                         if (response.isSuccessful()) {
                             clearFormEntry();
-                            Toast.makeText(SubmitProject.this, "Success " + response.message(), Toast.LENGTH_LONG).show();
+                            Toast.makeText(SubmitProject.this, "Success " + response.message(), Toast.LENGTH_SHORT).show();
 
                         }
                         else{
-                            Toast.makeText(SubmitProject.this, "Response Error" + response.errorBody(), Toast.LENGTH_LONG).show();
+                            Toast.makeText(SubmitProject.this, "Response Error" + response.errorBody(), Toast.LENGTH_SHORT).show();
                         }
                     }
 
@@ -122,7 +122,7 @@ public class SubmitProject extends AppCompatActivity {
                     public void onFailure(@NotNull Call<Void> call, @NotNull Throwable t) {
                         // Calls method to create and show failure message dialog
                         createResponseDialog(R.drawable.ic_baseline_warning_24, R.string.submission_failure);
-                        Toast.makeText(SubmitProject.this, t.getMessage(), Toast.LENGTH_LONG).show();
+                        Toast.makeText(SubmitProject.this, t.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
             }
