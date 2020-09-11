@@ -2,7 +2,7 @@
 
 This is aproject from Google Developer Scholarship.
 
-##Screenshots
+## Screenshots
 <p float="left">
 <kbd>
   <img src="https://github.com/SoVinceble/GADSLeaderBoard/blob/master/screenshots/Screenshot_1.png" width="200" />
