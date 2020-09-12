@@ -1,6 +1,6 @@
 # GADS 2020 Leaderboard
 
-This is aproject from Google Africa Developer Scholarship.
+This is a project from Google Africa Developer Scholarship.
 
 ## Screenshots
 <p float="left">
